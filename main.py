@@ -8,7 +8,6 @@ from visualizer import visualize
 if __name__ == '__main__':
 
     X0 = np.matrix([[0], [0.8]])
-    print( X0[0].shape)
     P0 = np.matrix([[1.,0.],[0.,1.]])
     T = 1.0
     F = np.matrix([[1,T],[0,1]])    
